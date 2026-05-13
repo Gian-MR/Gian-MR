@@ -45,22 +45,6 @@ Building apps, experimenting with AI, and turning ideas into code.
 
 ---
 
-## 📫 Connect With Me
-
-<p align="center">
-
-<a href="https://linkedin.com/in/gian-miranda" target="blank">
-<img src="https://skillicons.dev/icons?i=linkedin" height="55" />
-</a>
-
-<a href="https://leetcode.com/gian_mx" target="blank">
-<img src="https://cdn.simpleicons.org/leetcode/FFA116" height="55" />
-</a>
-
-</p>
-
----
-
 ## ⚡ Fun Fact
 
 I started with robotics competitions before diving into full-stack development...  
