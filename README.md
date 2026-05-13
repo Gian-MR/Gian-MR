@@ -33,13 +33,7 @@ Building apps, experimenting with AI, and turning ideas into code.
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=python,cpp,java,dart,flutter,firebase,git,figma,tensorflow,pytorch&perline=5" />
-
-</p>
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=vscode,github,firebase,flutter&perline=4" />
+<img src="https://skillicons.dev/icons?i=python,cpp,java,dart,flutter,firebase,git,figma,tensorflow,pytorch,vscode,github,&perline=5" />
 
 </p>
 
