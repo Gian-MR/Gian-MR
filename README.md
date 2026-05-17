@@ -25,7 +25,13 @@ Building apps, experimenting with AI, and turning ideas into code.
       height="45"
     />
   </a>
-</p>
+
+ <a href="https://gian-miranda-portfolio.vercel.app" target="_blank">
+  <img 
+    src="https://img.shields.io/badge/🌐%20My%20Portfolio-181717?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117" 
+    height="45"
+  />
+</a>
 
 ---
 
