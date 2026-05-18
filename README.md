@@ -19,9 +19,9 @@ Building apps, experimenting with AI, and turning ideas into code.
 - 💡 Interested in Full-Stack Development, Flutter, AI, and UI/UX Design
 
 <p align="center">
-  <a href="https://github.com/Gian-MR/Gian-MR/blob/main/Gian_Marcos_Miranda_Roman_Resume.pdf" target="_blank">
+  <a href="https://drive.google.com/file/d/1Poymwp990mC7OsQD9E8vZwlsksc20hk5/view?usp=drive_link" target="_blank">
     <img 
-      src="https://img.shields.io/badge/📄%20My%20Resume-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" 
+      src="https://img.shields.io/badge/📄%20My%20Resume-181717?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=0D1117" 
       height="45"
     />
   </a>
