@@ -1,8 +1,8 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:0C4A6E,70:2563EB,100:38BDF8&height=230&section=header&text=Hey%2C%20I'm%20Gian!%20%F0%9F%90%8D&fontSize=52&fontColor=FFFFFF&fontAlignY=35&desc=Software%20Developer%20%E2%80%A2%20Flutter%20Builder%20%E2%80%A2%20AI%2FML%20Researcher&descSize=17&descAlignY=57&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:0C4A6E,70:2563EB,100:38BDF8&height=230&section=header&text=Hey%2C%20I'm%20Gian!&fontSize=52&fontColor=FFFFFF&fontAlignY=35&desc=Software%20Developer%20%E2%80%A2%20Flutter%20Builder%20%E2%80%A2%20AI%2FML%20Researcher&descSize=17&descAlignY=57&animation=twinkling" />
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2600&pause=700&color=38BDF8&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=92&lines=Slithering+through+bugs%2C+one+commit+at+a+time+%F0%9F%90%8D;Building+cross-platform+apps+with+Flutter+%F0%9F%93%B1;Training+CNNs+and+exploring+efficient+AI+%F0%9F%A7%A0)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2600&pause=700&color=38BDF8&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=92&lines=Slithering+through+bugs%2C+one+commit+at+a+time;Building+cross-platform+apps+with+Flutter;Training+CNNs+and+exploring+efficient+AI)](https://git.io/typing-svg)
 
 [![Portfolio](https://img.shields.io/badge/Explore_My_Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://gian-miranda-portfolio.vercel.app/)
 [![Resume](https://img.shields.io/badge/View_My_Resume-38BDF8?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1Poymwp990mC7OsQD9E8vZwlsksc20hk5/view?usp=drive_link)
@@ -21,11 +21,11 @@
 
 </div>
 
-## 🐍 Meet the Developer
+## Meet the Developer
 
 ```dart
 class GianMiranda extends Developer {
-  final location = "Ponce, Puerto Rico 🇵🇷";
+  final location = "Ponce, Puerto Rico";
   final university = "University of Puerto Rico at Mayagüez";
   final degree = "B.S. Computer Science & Engineering";
   final graduation = "May 2029";
@@ -46,7 +46,7 @@ class GianMiranda extends Developer {
 <tr>
 <td width="50%" valign="top">
 
-### 🚀 What I Build
+### What I Build
 
 - Cross-platform apps for iOS, Android, and iPadOS
 - Real-time Firebase and NoSQL experiences
@@ -57,7 +57,7 @@ class GianMiranda extends Developer {
 </td>
 <td width="50%" valign="top">
 
-### 🎯 What I'm Looking For
+### What I'm Looking For
 
 - Software engineering internships
 - Mobile development opportunities
@@ -75,19 +75,19 @@ class GianMiranda extends Developer {
 
 </div>
 
-## 🧰 Snake Pit Toolbox
+## Snake Pit Toolbox
 
 <div align="center">
 
-### 💬 Languages
+### Languages
 
 [![Languages](https://skillicons.dev/icons?i=python,cpp,java,dart,typescript&theme=dark&perline=5)](https://skillicons.dev)
 
-### 📱 Frontend & Mobile
+### Frontend & Mobile
 
 [![Frontend and Mobile](https://skillicons.dev/icons?i=flutter,react,nextjs,html,css&theme=dark&perline=5)](https://skillicons.dev)
 
-### 🗄️ Backend & Data
+### Backend & Data
 
 [![Firebase](https://skillicons.dev/icons?i=firebase&theme=dark)](https://skillicons.dev)
 
@@ -95,14 +95,14 @@ class GianMiranda extends Developer {
 ![Real-Time Data](https://img.shields.io/badge/Real--Time_Data-2563EB?style=for-the-badge&logo=firebase&logoColor=white)
 ![Analytical Dashboards](https://img.shields.io/badge/Analytical_Dashboards-0284C7?style=for-the-badge&logo=googleanalytics&logoColor=white)
 
-### 🧠 AI & Machine Learning
+### AI & Machine Learning
 
 [![AI and Machine Learning](https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark&perline=2)](https://skillicons.dev)
 
 ![CNNs](https://img.shields.io/badge/Convolutional_Neural_Networks-0C4A6E?style=for-the-badge&logo=openai&logoColor=white)
 ![Model Evaluation](https://img.shields.io/badge/Model_Evaluation-38BDF8?style=for-the-badge&logo=weightsandbiases&logoColor=white)
 
-### 🛠️ Tools
+### Tools
 
 [![Tooling](https://skillicons.dev/icons?i=git,github,vscode,figma&theme=dark&perline=4)](https://skillicons.dev)
 
@@ -114,10 +114,10 @@ class GianMiranda extends Developer {
 
 </div>
 
-## 🥚 Choose a Project to Hatch
+## Choose a Project to Hatch
 
 <details open>
-<summary><strong>🏓 MiUni Tournament Management System</strong></summary>
+<summary><strong>MiUni Tournament Management System</strong></summary>
 
 <br>
 
@@ -135,7 +135,7 @@ class GianMiranda extends Developer {
 </details>
 
 <details>
-<summary><strong>🐾 Pet Finder</strong></summary>
+<summary><strong>Pet Finder</strong></summary>
 
 <br>
 
@@ -148,12 +148,12 @@ class GianMiranda extends Developer {
 | **Features** | Pet profiles, shelter information, authentication, favorites, browsing, and filtering |
 | **Power-Up** | Responsive UI and organized state management |
 | **Outcome** | A focused path from discovering a pet to finding adoption information |
-| **Code** | [Open the repository →](https://github.com/Gian-MR/PetFinder) |
+| **Code** | [Open the repository](https://github.com/Gian-MR/PetFinder) |
 
 </details>
 
 <details>
-<summary><strong>🏎️ CNN Energy Efficiency Research</strong></summary>
+<summary><strong>CNN Energy Efficiency Research</strong></summary>
 
 <br>
 
@@ -166,12 +166,12 @@ class GianMiranda extends Developer {
 | **Challenge** | Develop, debug, evaluate, and optimize experimental models |
 | **Power-Up** | Reproducible experimentation and performance analysis |
 | **Outcome** | Research toward more efficient computer vision systems |
-| **Code** | [Explore the research repository →](https://github.com/Gian-MR/F1-Comp-Vision) |
+| **Code** | [Explore the research repository](https://github.com/Gian-MR/F1-Comp-Vision) |
 
 </details>
 
 <details>
-<summary><strong>🎂 Evelyn Sweet Cake Ordering Platform</strong></summary>
+<summary><strong>Evelyn Sweet Cake Ordering Platform</strong></summary>
 
 <br>
 
@@ -184,7 +184,7 @@ class GianMiranda extends Developer {
 | **Challenge** | Simplify three different ordering workflows |
 | **Power-Up** | Mobile-first product design and guided interaction |
 | **Outcome** | A faster, clearer ordering experience for customers and administrators |
-| **Demo** | [Visit my portfolio →](https://gian-miranda-portfolio.vercel.app/) |
+| **Demo** | [Visit my portfolio](https://gian-miranda-portfolio.vercel.app/) |
 
 </details>
 
