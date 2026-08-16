@@ -1,17 +1,17 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:052E16,70:16A34A,100:84CC16&height=230&section=header&text=Hey%2C%20I'm%20Gian!%20%F0%9F%90%8D&fontSize=52&fontColor=FFFFFF&fontAlignY=35&desc=Software%20Developer%20%E2%80%A2%20Flutter%20Builder%20%E2%80%A2%20AI%2FML%20Researcher&descSize=17&descAlignY=57&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:0C4A6E,70:2563EB,100:38BDF8&height=230&section=header&text=Hey%2C%20I'm%20Gian!%20%F0%9F%90%8D&fontSize=52&fontColor=FFFFFF&fontAlignY=35&desc=Software%20Developer%20%E2%80%A2%20Flutter%20Builder%20%E2%80%A2%20AI%2FML%20Researcher&descSize=17&descAlignY=57&animation=twinkling" />
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2600&pause=700&color=22C55E&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=92&lines=Slithering+through+bugs%2C+one+commit+at+a+time+%F0%9F%90%8D;Building+cross-platform+apps+with+Flutter+%F0%9F%93%B1;Training+CNNs+and+exploring+efficient+AI+%F0%9F%A7%A0)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2600&pause=700&color=38BDF8&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=92&lines=Slithering+through+bugs%2C+one+commit+at+a+time+%F0%9F%90%8D;Building+cross-platform+apps+with+Flutter+%F0%9F%93%B1;Training+CNNs+and+exploring+efficient+AI+%F0%9F%A7%A0)](https://git.io/typing-svg)
 
-[![Portfolio](https://img.shields.io/badge/Explore_My_Portfolio-16A34A?style=for-the-badge&logo=vercel&logoColor=white)](https://gian-miranda-portfolio.vercel.app/)
-[![Resume](https://img.shields.io/badge/View_My_Resume-22C55E?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1Poymwp990mC7OsQD9E8vZwlsksc20hk5/view?usp=drive_link)
-[![Email](https://img.shields.io/badge/Let's_Talk-65A30D?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gian.miranda1@upr.edu)
+[![Portfolio](https://img.shields.io/badge/Explore_My_Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://gian-miranda-portfolio.vercel.app/)
+[![Resume](https://img.shields.io/badge/View_My_Resume-38BDF8?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1Poymwp990mC7OsQD9E8vZwlsksc20hk5/view?usp=drive_link)
+[![Email](https://img.shields.io/badge/Let's_Talk-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gian.miranda1@upr.edu)
 [![GitHub](https://img.shields.io/badge/Follow_My_Trail-020617?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gian-MR)
 
-![Profile Views](https://komarev.com/ghpvc/?username=Gian-MR&label=Profile+Visitors&color=16A34A&style=flat-square)
-[![Followers](https://img.shields.io/github/followers/Gian-MR?label=GitHub%20Friends&style=flat-square&color=22C55E&labelColor=020617)](https://github.com/Gian-MR?tab=followers)
-[![Stars](https://img.shields.io/github/stars/Gian-MR?affiliations=OWNER&label=Repo%20Stars&style=flat-square&color=84CC16&labelColor=020617)](https://github.com/Gian-MR?tab=repositories)
+![Profile Views](https://komarev.com/ghpvc/?username=Gian-MR&label=Profile+Visitors&color=0284C7&style=flat-square)
+[![Followers](https://img.shields.io/github/followers/Gian-MR?label=GitHub%20Friends&style=flat-square&color=38BDF8&labelColor=020617)](https://github.com/Gian-MR?tab=followers)
+[![Stars](https://img.shields.io/github/stars/Gian-MR?affiliations=OWNER&label=Repo%20Stars&style=flat-square&color=60A5FA&labelColor=020617)](https://github.com/Gian-MR?tab=repositories)
 
 </div>
 
@@ -91,16 +91,16 @@ class GianMiranda extends Developer {
 
 [![Firebase](https://skillicons.dev/icons?i=firebase&theme=dark)](https://skillicons.dev)
 
-![NoSQL](https://img.shields.io/badge/NoSQL-15803D?style=for-the-badge&logo=databricks&logoColor=white)
-![Real-Time Data](https://img.shields.io/badge/Real--Time_Data-16A34A?style=for-the-badge&logo=firebase&logoColor=white)
-![Analytical Dashboards](https://img.shields.io/badge/Analytical_Dashboards-65A30D?style=for-the-badge&logo=googleanalytics&logoColor=white)
+![NoSQL](https://img.shields.io/badge/NoSQL-1D4ED8?style=for-the-badge&logo=databricks&logoColor=white)
+![Real-Time Data](https://img.shields.io/badge/Real--Time_Data-2563EB?style=for-the-badge&logo=firebase&logoColor=white)
+![Analytical Dashboards](https://img.shields.io/badge/Analytical_Dashboards-0284C7?style=for-the-badge&logo=googleanalytics&logoColor=white)
 
 ### 🧠 AI & Machine Learning
 
 [![AI and Machine Learning](https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark&perline=2)](https://skillicons.dev)
 
-![CNNs](https://img.shields.io/badge/Convolutional_Neural_Networks-14532D?style=for-the-badge&logo=openai&logoColor=white)
-![Model Evaluation](https://img.shields.io/badge/Model_Evaluation-22C55E?style=for-the-badge&logo=weightsandbiases&logoColor=white)
+![CNNs](https://img.shields.io/badge/Convolutional_Neural_Networks-0C4A6E?style=for-the-badge&logo=openai&logoColor=white)
+![Model Evaluation](https://img.shields.io/badge/Model_Evaluation-38BDF8?style=for-the-badge&logo=weightsandbiases&logoColor=white)
 
 ### 🛠️ Tools
 
@@ -194,4 +194,4 @@ class GianMiranda extends Developer {
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:84CC16,30:16A34A,65:052E16,100:020617&height=140&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,30:2563EB,65:0C4A6E,100:020617&height=140&section=footer" />
