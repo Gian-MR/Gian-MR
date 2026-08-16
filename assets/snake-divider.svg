@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-labelledby="title desc">
+  <title id="title">Animated snake section divider</title>
+  <desc id="desc">A green pixel snake travels across two thin rows from side to side.</desc>
+
+  <defs>
+    <filter id="glow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <linearGradient id="track" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#052e16" />
+      <stop offset="0.5" stop-color="#14532d" />
+      <stop offset="1" stop-color="#052e16" />
+    </linearGradient>
+    <path id="route" pathLength="2400" d="M24 24 H1152 Q1178 24 1178 42 Q1178 60 1152 60 H24" />
+  </defs>
+
+  <use href="#route" fill="none" stroke="#020617" stroke-width="18" stroke-linecap="square" stroke-linejoin="round" opacity="0.9" />
+  <use href="#route" fill="none" stroke="url(#track)" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-dasharray="13 9" opacity="0.9" />
+
+  <use href="#route" fill="none" stroke="#22c55e" stroke-width="13" stroke-linecap="square" stroke-linejoin="round" pathLength="2400" stroke-dasharray="16 6 16 6 16 6 16 6 16 6 16 6 16 2252" stroke-dashoffset="148" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="148;-2252" dur="7s" repeatCount="indefinite" />
+  </use>
+
+  <g filter="url(#glow)">
+    <circle cx="0" cy="0" r="10" fill="#84cc16" />
+    <circle cx="-3" cy="-3" r="1.7" fill="#020617" />
+    <circle cx="3" cy="-3" r="1.7" fill="#020617" />
+    <path d="M0 7 v7 m0 0 -4 4 m4 -4 4 4" fill="none" stroke="#ef4444" stroke-width="1.8" stroke-linecap="round" />
+    <animateMotion dur="7s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#route" />
+    </animateMotion>
+  </g>
+</svg>
