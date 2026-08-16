@@ -2,8 +2,6 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2600&pause=700&color=38BDF8&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=92&lines=Slithering+through+bugs%2C+one+commit+at+a+time;Building+cross-platform+apps+with+Flutter;Training+CNNs+and+exploring+efficient+AI)](https://git.io/typing-svg)
-
 [![Portfolio](https://img.shields.io/badge/Explore_My_Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://gian-miranda-portfolio.vercel.app/)
 [![Resume](https://img.shields.io/badge/View_My_Resume-38BDF8?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1Poymwp990mC7OsQD9E8vZwlsksc20hk5/view?usp=drive_link)
 [![Email](https://img.shields.io/badge/Let's_Talk-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gian.miranda1@upr.edu)
@@ -166,7 +164,7 @@ class GianMiranda extends Developer {
 | **Challenge** | Develop, debug, evaluate, and optimize experimental models |
 | **Power-Up** | Reproducible experimentation and performance analysis |
 | **Outcome** | Research toward more efficient computer vision systems |
-| **Code** | [Explore the research repository](https://github.com/Gian-MR/F1-Comp-Vision) |
+| **Code** | Private research repository |
 
 </details>
 
