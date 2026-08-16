@@ -3,8 +3,9 @@
   <desc id="desc">A green block snake travels across two rows of blue code-style tiles.</desc>
 
   <defs>
-    <pattern id="block-grid" width="24" height="32" patternUnits="userSpaceOnUse">
-      <rect x="3" y="7" width="18" height="18" rx="4" fill="#172033" />
+    <pattern id="block-grid" width="24" height="72" patternUnits="userSpaceOnUse">
+      <rect x="3" y="9" width="18" height="18" rx="4" fill="#172033" />
+      <rect x="3" y="45" width="18" height="18" rx="4" fill="#172033" />
     </pattern>
     <filter id="head-glow" x="-80%" y="-80%" width="260%" height="260%">
       <feGaussianBlur stdDeviation="2.4" result="blur" />
@@ -13,70 +14,69 @@
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
-    <path id="snake-route" d="M12 20 H1176 Q1188 20 1188 32 V40 Q1188 52 1176 52 H12" />
+    <path id="snake-route" d="M12 18 H1176 Q1188 18 1188 30 V42 Q1188 54 1176 54 H12" />
   </defs>
 
-  <rect width="1200" height="72" rx="8" fill="#080f1c" />
   <rect width="1200" height="72" fill="url(#block-grid)" />
 
   <g fill="#0c4a6e">
-    <rect x="27" y="11" width="18" height="18" rx="4" />
-    <rect x="99" y="11" width="18" height="18" rx="4" />
-    <rect x="219" y="11" width="18" height="18" rx="4" />
-    <rect x="363" y="11" width="18" height="18" rx="4" />
-    <rect x="555" y="11" width="18" height="18" rx="4" />
-    <rect x="747" y="11" width="18" height="18" rx="4" />
-    <rect x="915" y="11" width="18" height="18" rx="4" />
-    <rect x="1083" y="11" width="18" height="18" rx="4" />
-    <rect x="75" y="43" width="18" height="18" rx="4" />
-    <rect x="267" y="43" width="18" height="18" rx="4" />
-    <rect x="459" y="43" width="18" height="18" rx="4" />
-    <rect x="627" y="43" width="18" height="18" rx="4" />
-    <rect x="843" y="43" width="18" height="18" rx="4" />
-    <rect x="1035" y="43" width="18" height="18" rx="4" />
+    <rect x="27" y="9" width="18" height="18" rx="4" />
+    <rect x="99" y="9" width="18" height="18" rx="4" />
+    <rect x="219" y="9" width="18" height="18" rx="4" />
+    <rect x="363" y="9" width="18" height="18" rx="4" />
+    <rect x="555" y="9" width="18" height="18" rx="4" />
+    <rect x="747" y="9" width="18" height="18" rx="4" />
+    <rect x="915" y="9" width="18" height="18" rx="4" />
+    <rect x="1083" y="9" width="18" height="18" rx="4" />
+    <rect x="75" y="45" width="18" height="18" rx="4" />
+    <rect x="267" y="45" width="18" height="18" rx="4" />
+    <rect x="459" y="45" width="18" height="18" rx="4" />
+    <rect x="627" y="45" width="18" height="18" rx="4" />
+    <rect x="843" y="45" width="18" height="18" rx="4" />
+    <rect x="1035" y="45" width="18" height="18" rx="4" />
   </g>
 
   <g fill="#0369a1">
-    <rect x="147" y="11" width="18" height="18" rx="4" />
-    <rect x="411" y="11" width="18" height="18" rx="4" />
-    <rect x="699" y="11" width="18" height="18" rx="4" />
-    <rect x="987" y="11" width="18" height="18" rx="4" />
-    <rect x="171" y="43" width="18" height="18" rx="4" />
-    <rect x="531" y="43" width="18" height="18" rx="4" />
-    <rect x="771" y="43" width="18" height="18" rx="4" />
-    <rect x="1131" y="43" width="18" height="18" rx="4" />
+    <rect x="147" y="9" width="18" height="18" rx="4" />
+    <rect x="411" y="9" width="18" height="18" rx="4" />
+    <rect x="699" y="9" width="18" height="18" rx="4" />
+    <rect x="987" y="9" width="18" height="18" rx="4" />
+    <rect x="171" y="45" width="18" height="18" rx="4" />
+    <rect x="531" y="45" width="18" height="18" rx="4" />
+    <rect x="771" y="45" width="18" height="18" rx="4" />
+    <rect x="1131" y="45" width="18" height="18" rx="4" />
   </g>
 
   <g fill="#0ea5e9">
-    <rect x="315" y="11" width="18" height="18" rx="4" />
-    <rect x="819" y="11" width="18" height="18" rx="4" />
-    <rect x="339" y="43" width="18" height="18" rx="4" />
-    <rect x="939" y="43" width="18" height="18" rx="4" />
+    <rect x="315" y="9" width="18" height="18" rx="4" />
+    <rect x="819" y="9" width="18" height="18" rx="4" />
+    <rect x="339" y="45" width="18" height="18" rx="4" />
+    <rect x="939" y="45" width="18" height="18" rx="4" />
   </g>
 
   <g fill="#14532d">
     <rect x="-9" y="-9" width="18" height="18" rx="4" />
-    <animateMotion dur="8s" begin="-0.15s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
+    <animateMotion dur="8s" begin="-0.08s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
   </g>
   <g fill="#166534">
     <rect x="-9" y="-9" width="18" height="18" rx="4" />
-    <animateMotion dur="8s" begin="-0.30s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
+    <animateMotion dur="8s" begin="-0.16s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
   </g>
   <g fill="#15803d">
     <rect x="-9" y="-9" width="18" height="18" rx="4" />
-    <animateMotion dur="8s" begin="-0.45s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
+    <animateMotion dur="8s" begin="-0.24s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
   </g>
   <g fill="#16a34a">
     <rect x="-9" y="-9" width="18" height="18" rx="4" />
-    <animateMotion dur="8s" begin="-0.60s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
+    <animateMotion dur="8s" begin="-0.32s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
   </g>
   <g fill="#22c55e">
     <rect x="-9" y="-9" width="18" height="18" rx="4" />
-    <animateMotion dur="8s" begin="-0.75s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
+    <animateMotion dur="8s" begin="-0.40s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
   </g>
   <g fill="#4ade80">
     <rect x="-9" y="-9" width="18" height="18" rx="4" />
-    <animateMotion dur="8s" begin="-0.90s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
+    <animateMotion dur="8s" begin="-0.48s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
   </g>
 
   <g filter="url(#head-glow)">
@@ -84,6 +84,6 @@
     <rect x="1" y="-5" width="3" height="3" rx="1" fill="#020617" />
     <rect x="1" y="3" width="3" height="3" rx="1" fill="#020617" />
     <path d="M10 0 h7 m0 0 4 -3 m-4 3 4 3" fill="none" stroke="#ef4444" stroke-width="1.8" stroke-linecap="round" />
-    <animateMotion dur="8s" begin="-1.05s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
+    <animateMotion dur="8s" begin="-0.56s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
   </g>
 </svg>
