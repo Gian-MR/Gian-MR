@@ -17,7 +17,7 @@
 
 <div align="center">
 
-<img width="100%" height="84" alt="Animated two-row snake divider" src="./assets/snake-divider.svg" />
+<img width="100%" height="72" alt="Animated two-row snake divider" src="./assets/snake-divider.svg" />
 
 </div>
 
@@ -71,7 +71,7 @@ class GianMiranda extends Developer {
 
 <div align="center">
 
-<img width="100%" height="84" alt="Animated two-row snake divider" src="./assets/snake-divider.svg" />
+<img width="100%" height="72" alt="Animated two-row snake divider" src="./assets/snake-divider.svg" />
 
 </div>
 
@@ -110,7 +110,7 @@ class GianMiranda extends Developer {
 
 <div align="center">
 
-<img width="100%" height="84" alt="Animated two-row snake divider" src="./assets/snake-divider.svg" />
+<img width="100%" height="72" alt="Animated two-row snake divider" src="./assets/snake-divider.svg" />
 
 </div>
 
@@ -190,7 +190,7 @@ class GianMiranda extends Developer {
 
 <div align="center">
 
-<img width="100%" height="84" alt="Animated two-row snake divider" src="./assets/snake-divider.svg" />
+<img width="100%" height="72" alt="Animated two-row snake divider" src="./assets/snake-divider.svg" />
 
 </div>
 
