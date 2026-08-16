@@ -1,37 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-labelledby="title desc">
-  <title id="title">Animated snake section divider</title>
-  <desc id="desc">A green pixel snake travels across two thin rows from side to side.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-labelledby="title desc">
+  <title id="title">Animated block snake section divider</title>
+  <desc id="desc">A green block snake travels across two rows of blue code-style tiles.</desc>
 
   <defs>
-    <filter id="glow" x="-30%" y="-100%" width="160%" height="300%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+    <pattern id="block-grid" width="24" height="32" patternUnits="userSpaceOnUse">
+      <rect x="3" y="7" width="18" height="18" rx="4" fill="#172033" />
+    </pattern>
+    <filter id="head-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.4" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
-    <linearGradient id="track" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#052e16" />
-      <stop offset="0.5" stop-color="#14532d" />
-      <stop offset="1" stop-color="#052e16" />
-    </linearGradient>
-    <path id="route" pathLength="2400" d="M24 24 H1152 Q1178 24 1178 42 Q1178 60 1152 60 H24" />
+    <path id="snake-route" d="M12 20 H1176 Q1188 20 1188 32 V40 Q1188 52 1176 52 H12" />
   </defs>
 
-  <use href="#route" fill="none" stroke="#020617" stroke-width="18" stroke-linecap="square" stroke-linejoin="round" opacity="0.9" />
-  <use href="#route" fill="none" stroke="url(#track)" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-dasharray="13 9" opacity="0.9" />
+  <rect width="1200" height="72" rx="8" fill="#080f1c" />
+  <rect width="1200" height="72" fill="url(#block-grid)" />
 
-  <use href="#route" fill="none" stroke="#22c55e" stroke-width="13" stroke-linecap="square" stroke-linejoin="round" pathLength="2400" stroke-dasharray="16 6 16 6 16 6 16 6 16 6 16 6 16 2252" stroke-dashoffset="148" filter="url(#glow)">
-    <animate attributeName="stroke-dashoffset" values="148;-2252" dur="7s" repeatCount="indefinite" />
-  </use>
+  <g fill="#0c4a6e">
+    <rect x="27" y="11" width="18" height="18" rx="4" />
+    <rect x="99" y="11" width="18" height="18" rx="4" />
+    <rect x="219" y="11" width="18" height="18" rx="4" />
+    <rect x="363" y="11" width="18" height="18" rx="4" />
+    <rect x="555" y="11" width="18" height="18" rx="4" />
+    <rect x="747" y="11" width="18" height="18" rx="4" />
+    <rect x="915" y="11" width="18" height="18" rx="4" />
+    <rect x="1083" y="11" width="18" height="18" rx="4" />
+    <rect x="75" y="43" width="18" height="18" rx="4" />
+    <rect x="267" y="43" width="18" height="18" rx="4" />
+    <rect x="459" y="43" width="18" height="18" rx="4" />
+    <rect x="627" y="43" width="18" height="18" rx="4" />
+    <rect x="843" y="43" width="18" height="18" rx="4" />
+    <rect x="1035" y="43" width="18" height="18" rx="4" />
+  </g>
 
-  <g filter="url(#glow)">
-    <circle cx="0" cy="0" r="10" fill="#84cc16" />
-    <circle cx="-3" cy="-3" r="1.7" fill="#020617" />
-    <circle cx="3" cy="-3" r="1.7" fill="#020617" />
-    <path d="M0 7 v7 m0 0 -4 4 m4 -4 4 4" fill="none" stroke="#ef4444" stroke-width="1.8" stroke-linecap="round" />
-    <animateMotion dur="7s" repeatCount="indefinite" rotate="auto">
-      <mpath href="#route" />
-    </animateMotion>
+  <g fill="#0369a1">
+    <rect x="147" y="11" width="18" height="18" rx="4" />
+    <rect x="411" y="11" width="18" height="18" rx="4" />
+    <rect x="699" y="11" width="18" height="18" rx="4" />
+    <rect x="987" y="11" width="18" height="18" rx="4" />
+    <rect x="171" y="43" width="18" height="18" rx="4" />
+    <rect x="531" y="43" width="18" height="18" rx="4" />
+    <rect x="771" y="43" width="18" height="18" rx="4" />
+    <rect x="1131" y="43" width="18" height="18" rx="4" />
+  </g>
+
+  <g fill="#0ea5e9">
+    <rect x="315" y="11" width="18" height="18" rx="4" />
+    <rect x="819" y="11" width="18" height="18" rx="4" />
+    <rect x="339" y="43" width="18" height="18" rx="4" />
+    <rect x="939" y="43" width="18" height="18" rx="4" />
+  </g>
+
+  <g fill="#14532d">
+    <rect x="-9" y="-9" width="18" height="18" rx="4" />
+    <animateMotion dur="8s" begin="-0.15s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
+  </g>
+  <g fill="#166534">
+    <rect x="-9" y="-9" width="18" height="18" rx="4" />
+    <animateMotion dur="8s" begin="-0.30s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
+  </g>
+  <g fill="#15803d">
+    <rect x="-9" y="-9" width="18" height="18" rx="4" />
+    <animateMotion dur="8s" begin="-0.45s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
+  </g>
+  <g fill="#16a34a">
+    <rect x="-9" y="-9" width="18" height="18" rx="4" />
+    <animateMotion dur="8s" begin="-0.60s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
+  </g>
+  <g fill="#22c55e">
+    <rect x="-9" y="-9" width="18" height="18" rx="4" />
+    <animateMotion dur="8s" begin="-0.75s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
+  </g>
+  <g fill="#4ade80">
+    <rect x="-9" y="-9" width="18" height="18" rx="4" />
+    <animateMotion dur="8s" begin="-0.90s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
+  </g>
+
+  <g filter="url(#head-glow)">
+    <rect x="-10" y="-10" width="20" height="20" rx="5" fill="#84cc16" />
+    <rect x="1" y="-5" width="3" height="3" rx="1" fill="#020617" />
+    <rect x="1" y="3" width="3" height="3" rx="1" fill="#020617" />
+    <path d="M10 0 h7 m0 0 4 -3 m-4 3 4 3" fill="none" stroke="#ef4444" stroke-width="1.8" stroke-linecap="round" />
+    <animateMotion dur="8s" begin="-1.05s" repeatCount="indefinite" rotate="auto"><mpath href="#snake-route" /></animateMotion>
   </g>
 </svg>
