@@ -23,7 +23,6 @@
 
 ```dart
 class GianMiranda extends Developer {
-  final location = "Ponce, Puerto Rico";
   final university = "University of Puerto Rico at Mayagüez";
   final degree = "B.S. Computer Science & Engineering";
   final graduation = "May 2029";
